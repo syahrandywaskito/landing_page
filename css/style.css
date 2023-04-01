@@ -4,9 +4,36 @@
   src: url("../font/bismillah.ttf");
 }
 
+@font-face{
+  font-family: "montserrat";
+  src: url("../font/Montserrat-VariableFont_wght.ttf");
+}
+
+@font-face{
+  font-family: "montserrat-italic";
+  src: url("../font/Montserrat-Italic-VariableFont_wght.ttf");
+}
+
+.montserrat{
+  font-family: "montserrat";
+}
+.montserrat-italic{
+  font-family: "montserrat-italic";
+}
+/*  */
+
+.bg-image{
+  background-image: url("../img/background.jpg");
+  background-position: top;
+  background-size: cover;
+  height: 100vh;
+}
+
 .nav-link:hover{
-  text-decoration: underline;
+  color: #b7d737 !important;
+  transition-duration: 0.5s;
 }
 .navbar-brand:hover{
-  text-decoration: underline;
+  color: #b7d737 !important;
+  transition-duration: 0.5s;
 }
