@@ -1,8 +1,3 @@
-/* media query relative width */
-@media screen {
-  
-}
-/*  */
 
 /* custom font */
 @font-face{
@@ -43,3 +38,15 @@
   color: #b7d737 !important;
   transition-duration: 0.5s;
 }
+
+/* media query responsive web */
+@media only screen and (max-width: 767px) {
+  .bg-image{
+    background-image: url("../img/header-phone.png");
+    height: 100vh;
+  }
+  .center{
+    text-align: center !important;
+  }
+}
+/*  */
