@@ -1,8 +1,11 @@
+p{
+  margin: 0;
+}
 
 /* custom font */
-@font-face{
-  font-family: "ramadhan";
-  src: url("../font/bismillah.ttf");
+@font-face {
+  font-family: "ramadhan-amazing";
+  src: url("../font/RamadhanAmazing-jEnDv.ttf");
 }
 
 @font-face{
@@ -21,7 +24,14 @@
 .montserrat-italic{
   font-family: "montserrat-italic";
 }
+.ramadhan-amazing{
+  font-family: "ramadhan-amazing";
+}
 /*  */
+
+.text-justify{
+  text-align: justify ;
+}
 
 .bg-image{
   background-image: url("../img/header.png");
@@ -38,6 +48,13 @@
   color: #b7d737 !important;
   transition-duration: 0.5s;
 }
+
+hr.hr-style{
+  border: 0;
+  height: 4px;
+  background-image: linear-gradient(to right, rgba(0, 104, 55, 0), rgba(0, 104, 55, 0.75), rgba(0, 104, 55, 0));
+}
+
 
 /* media query responsive web */
 @media only screen and (max-width: 767px) {

@@ -11,19 +11,20 @@
 </head>
 <body>
 
-  <header class="bg-image">
+  <!-- header start -->
+  <header class="bg-image" id="header">
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg bg-primary">
       <div class="container">
-        <a class="navbar-brand text-light fs-3" style="font-family: ramadhan;" href="index.html">SPM Ramadhan</a>
+        <a class="navbar-brand text-light fs-3" style="font-family: ramadhan-amazing;" href="index.html">SPM Ramadhan</a>
         <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link text-white montserrat-italic" href="#">Home</a>
-            <a class="nav-link text-white montserrat-italic" href="#">Features</a>
-            <a class="nav-link text-white montserrat-italic" href="#">Pricing</a>
+            <a class="nav-link text-white montserrat-italic" href="#header">Home</a>
+            <a class="nav-link text-white montserrat-italic" href="#about">About Us</a>
+            <a class="nav-link text-white montserrat-italic" href="#menu">Menu</a>
             <a class="nav-link text-white montserrat-italic" href="#">Disabled</a>
           </div>
         </div>
@@ -34,11 +35,11 @@
     <!-- header text -->
     <section class="container" style="padding-top: 10rem;">
       <div class="text-start center text-primary">
-        <h1 class="montserrat">Bulan <span style="font-family: ramadhan; font-size: larger;">Ramadhan</span> Telah Tiba</h1>
+        <h1 class="montserrat">Bulan <span style="font-family: ramadhan-amazing; font-size: larger;">Ramadhan</span> Telah Tiba</h1>
         <p class="montserrat-italic lead pt-2">Kami selaku pemilik Usaha SPM Mengucapkan<br> 
           <span class="fw-bold">"Selamat Menunaikan Ibadah Puasa"</span>
         </p>
-        <p class="montserrat lead pt-4">
+        <p class="montserrat lead pt-5">
           Sehubungan dengan bulan Ramadhan, kami memiliki<br>
           tambahan menu baru dengan nuansa Ramadhan yang<br> 
           membuat anda lapar dan iman anda sedikit bergoyah.
@@ -47,11 +48,48 @@
           <strong>Cek Menu dibawah ini</strong> 
         </p>
 
-        <a href="" class="btn btn-primary btn-md pt-2 montserrat">Menu Ramadhan</a>
+        <div class="pt-3">
+          <a href="#menu" class="btn btn-primary btn-md montserrat">Menu Ramadhan</a>
+        </div>
       </div>
     </section>
-    <!--  -->
+    <!-- ... -->
   </header>
+  <!-- header end -->
+
+  <hr class="hr-style">
+
+  <!-- about start -->
+  <section id="about">
+    <div class="container pt-4 pb-4">
+     <div class="d-flex justify-content-center">
+      <h2 class="montserrat-italic text-primary">About</h2>
+     </div>
+     <div class="d-flex justify-content-center pt-4">
+      <div style="width: 75%;">
+        <p class="text-justify text-primary montserrat">
+          Jika Kalian belum tahu apa itu <strong>SPM</strong>, maka izinkan kami untuk berkenalan dengan anda-anda sekalian.
+          Perkenalkan nama kami <strong>SPM</strong>, <strong>Sing Penting Masak!!</strong>. Nama kami berasal dari bahasa jawa ngoko atau bahasan jawa timuran, yang berarti <strong>Yang Penting Masak</strong>. Kenapa kami memilih nama ini?, kami memilih nama ini karena kami sudah pusing memilih nama yang bagus, berkelas, ataupun nama yang memiliki kata-kata asing didalamnya. <strong>Sing Penting Masak</strong> sendiri berarti apapun masakannya yang penting kami masak daripada tidak. Apapun yang kami ingin masak ya itu yang akan kami jual, jadi ada kemungkinan setiap hari menu masakan akan berbeda. <br>
+          <br>
+          Mungkin cukup dengan perkenalan dari kami. Sekarang saatnya <em>Promotion Time</em>. Berhubung kami dan kalian semua yang menjalankan ibadah puasa di bulan Ramadhan ini, kami menghadirkan menu khusus Ramadhan yang dapat menggoyahkan iman anda-anda sekalian. Menu Khusus Ramadhan ini tidak lepas dari minuman segar serta makanan manis maupun makanan gorengan yang renyah tapi beresiko asam urat. Silahkan anda-anda sekalian menuju ke bagian <strong>Menu</strong>, Ok.. 👌.
+        </p>
+      </div>
+     </div>
+    </div>
+  </section>
+  <!-- about end -->
+
+  <hr class="hr-style">
+
+  <section id="menu">
+    <div class="container pt-4 pb-4">
+      <div class="d-flex justify-content-center">
+        <h2 class="montserrat-italic text-primary">
+          Menu
+        </h2>
+      </div>
+    </div>
+  </section>
 
   <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
