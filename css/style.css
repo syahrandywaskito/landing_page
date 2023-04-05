@@ -62,6 +62,9 @@ hr.hr-style{
     background-image: url("../img/header-phone.png");
     height: 100vh;
   }
+  header.bg-image{
+    padding-top: 4rem;
+  }
   .center{
     text-align: center !important;
   }
