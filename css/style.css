@@ -55,6 +55,10 @@ hr.hr-style{
   background-image: linear-gradient(to right, rgba(0, 104, 55, 0), rgba(0, 104, 55, 0.75), rgba(0, 104, 55, 0));
 }
 
+.link:hover{
+  color: #b7d737 !important;
+  transition-duration: 0.5s;
+}
 
 /* media query responsive web */
 @media only screen and (max-width: 767px) {
