@@ -1,4 +1,4 @@
-# landing_page
+# Landing Page
 Landing Page project for Ramadhan Event
 
 Website :
